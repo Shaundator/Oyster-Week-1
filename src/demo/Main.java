@@ -4,7 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
         int[] array = {1,2,3,4,5,6,7,8,9,10,11};
-        printArray(rotateArray(array,4));
+        int rotateAmount = 4;
+        printArray(rotateArray(array,rotateAmount));
     }
     public static int[] rotateArray(int[] list, int amount) {
         if (list.length % amount == 0) {
